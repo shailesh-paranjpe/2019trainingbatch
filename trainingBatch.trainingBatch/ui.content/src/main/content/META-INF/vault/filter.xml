@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/trainingBatch" mode="merge"/>
+    <filter root="/content/trainingBatch" mode="merge"/>
+    <filter root="/content/dam/trainingBatch" mode="merge"/>
+</workspaceFilter>
