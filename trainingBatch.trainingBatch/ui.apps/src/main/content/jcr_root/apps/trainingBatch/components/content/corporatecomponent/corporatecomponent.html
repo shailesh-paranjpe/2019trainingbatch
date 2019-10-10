@@ -1,0 +1,16 @@
+<div data-sly-use.placeholderTemplate="core/wcm/components/commons/v1/templates.html"></div>
+
+<sly data-sly-call="${placeholderTemplate.placeholder @ isEmpty=true}"></sly>
+
+<div data-sly-use.clientLib="${'/libs/granite/sightly/templates/clientlib.html'}">
+  	<sly data-sly-call="${clientLib.css @ categories='wknd1.corporate'}"/>
+<div class="site-width">
+<div class="heading-three">
+            <center><h2>${properties.text}</h2></center>
+
+			<sly data-sly-test.text="${properties.desc}">
+            <p>${text @ context = properties.desc ? 'html' : 'text'}</p>
+            </sly>
+</div>
+</div>
+</div>
