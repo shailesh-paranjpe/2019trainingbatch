@@ -1,0 +1,50 @@
+.site-width {
+    background: #f8f8f8;
+    padding-top: 50px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    color: #293033;
+	max-width: 1130px;
+    box-sizing: border-box;
+	margin: 0px auto;
+}
+
+.heading-three h2
+{
+    text-align: center;
+	margin-bottom: 10px;
+	font-family: 'gotham-medium';
+	font-size: 24px;
+    letter-spacing: 0.14em;
+	line-height: 1;
+	text-transform: uppercase;
+}
+.heading-three p
+{
+	text-align: center;
+	line-height: 1.4;
+    margin-bottom: 10px;
+    font-family: Georgia;
+	font-size: 15px;
+}
+
+/*Media Query*/
+
+
+@media (max-width: 767px)
+{
+
+
+.heading-three h2	
+        {
+            font-size: 19px;
+            letter-spacing: 0.06em;
+        }
+.heading-three p
+    {
+        font-size: 15px;
+        padding:0px;
+    }
+
+}
