@@ -220,6 +220,7 @@
                         <failOnError>true</failOnError>
                         <userId>${vault.user}</userId>
                         <password>${vault.password}</password>
+						<useProxy>false</useProxy>
                     </configuration>
                 </plugin>
                 <!-- Apache Felix Bundle Plugin -->
