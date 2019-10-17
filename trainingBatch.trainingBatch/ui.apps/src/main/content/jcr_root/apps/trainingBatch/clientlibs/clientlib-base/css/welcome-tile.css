@@ -1,0 +1,60 @@
+#welcome .site-width {
+    max-width: 1130px;
+    box-sizing: border-box;
+    padding: 75px 100px 75px;
+    color: #002554;
+}
+#welcome .site-width .welcome-section {
+    max-width: 755px;
+    margin: 0px auto;
+}
+#welcome h2 {
+    margin-bottom: 55px;
+	font-size: 2.5em;
+    letter-spacing: 0.3em;
+}
+#welcome .welcome-item {
+    padding-left: 90px;
+    margin-bottom: 35px;
+    position: relative;
+}
+#welcome .welcome-item.icon-global-presence:before {
+    left: 7px;
+}
+#welcome .welcome-item:before {
+    position: absolute;
+    left: 0px;
+    font-size: 50px;
+    top: 0px;
+}
+#welcome .welcome-item h3 {
+    margin-bottom: 30px;
+}
+ #welcome a.button {
+     padding: 20px 60px;
+     text-decoration: none;
+     margin: 0px;
+	 border:1px solid #002554;
+     font-family: gotham-book;
+	 color: #002554;
+	 }
+#welcome a.button:focus, #welcome a.button:hover {
+    text-decoration: none;
+	background-color:#e8e8e8;
+    color: #002554;
+}
+
+@media only screen and (max-width:1023px) {
+	#welcome .site-width {
+		margin: 0px;
+		padding: 40px 20px;
+	}
+	#button-explore-global-benefits.welcome-item {
+		padding-left: 0px;
+		margin: 0px;
+	}
+	#welcome h2 {
+		font-size: 24px;
+		letter-spacing: 0.14em;
+	}
+}
