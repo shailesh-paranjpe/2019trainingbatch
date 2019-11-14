@@ -3,4 +3,4 @@
     jcr:description="This is BlogTile component"
     jcr:primaryType="cq:Component"
     jcr:title="BlogTile"
-    componentGroup="slingTest"/>
+    componentGroup=  "trainingBatch"/>
