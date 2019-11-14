@@ -1,0 +1,39 @@
+
+safatga
+
+<div class="cq-placeholder section"  data-emptytext="BlogTile Component"></div>
+
+<div data-sly-use.multiItems="com.aem.sling.core.models.Multifield">
+    <div data-sly-list.head="${multiItems.products.listChildren}">
+
+    <sly data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html">
+    <sly data-sly-call="${clientlib.css @ categories='slingTest.BlogTile'}"/>
+
+<!-- blog-tile start-->
+
+<div class="blog-tile">
+<div id="believe-belong">
+   <div class="site-width">
+      <div class="two-col">
+	<div class="two-col-one image">
+    <img src="${properties.fileReference}"/>
+    </div>
+
+    <div class="two-col-two">
+                             <h2>${head.heading}</h2>
+
+                             <p>${head.desc}</p>
+                             <p>${head.place}</p>
+                             <div class="button">
+                             <a href="https://www.google.com"> Button </a>
+                        </div>
+           </div>
+          </div>
+      </div>
+</div>
+</div>
+</sly>
+</div>
+</div> 
+
+<!-- blog-tile end-->
