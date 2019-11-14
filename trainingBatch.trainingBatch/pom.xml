@@ -38,7 +38,7 @@
         <aem.publish.host>localhost</aem.publish.host>
         <aem.publish.port>4503</aem.publish.port>
         <sling.user>admin</sling.user>
-        <sling.password>admin</sling.password>
+        <sling.password>Abhi1234</sling.password>
         <vault.user>admin</vault.user>
         <vault.password>admin</vault.password>
 
@@ -220,6 +220,7 @@
                         <failOnError>true</failOnError>
                         <userId>${vault.user}</userId>
                         <password>${vault.password}</password>
+						<useProxy>false</useProxy>
                     </configuration>
                 </plugin>
                 <!-- Apache Felix Bundle Plugin -->
