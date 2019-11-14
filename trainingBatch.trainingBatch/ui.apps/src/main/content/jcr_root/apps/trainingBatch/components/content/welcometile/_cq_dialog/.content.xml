@@ -72,10 +72,10 @@
                         sling:resourceType="cq/gui/components/authoring/dialog/fileupload"
                         autoStart="{Boolean}false"
                         fieldDescription="Drop or Browse a image to make it a background"
-                        fieldLabel="insert icon for content 1"
+                        fieldLabel="insert icon for content 2"
                         fileReferenceParameter="./contentficon"
                         mimeTypes="[image/gif,image/jpeg,image/png,image/webp,image/tiff,image/svg+xml]"
-                        name="./bgImage"
+                        name="./contenticonfst"
                         title="Upload Background Image Asset"
                         uploadUrl="${suffix.path}"/>
                     <content2icon
@@ -83,10 +83,10 @@
                         sling:resourceType="cq/gui/components/authoring/dialog/fileupload"
                         autoStart="{Boolean}false"
                         fieldDescription="Drop or Browse a image to make it a background"
-                        fieldLabel="insert icon for content 1"
+                        fieldLabel="insert icon for content 2"
                         fileReferenceParameter="./contentsicon"
                         mimeTypes="[image/gif,image/jpeg,image/png,image/webp,image/tiff,image/svg+xml]"
-                        name="./bgImage"
+                        name="./contenticonscnd"
                         title="Upload Background Image Asset"
                         uploadUrl="${suffix.path}"/>
                 </items>
