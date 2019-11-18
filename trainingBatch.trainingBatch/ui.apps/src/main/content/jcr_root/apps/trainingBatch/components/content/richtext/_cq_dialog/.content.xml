@@ -46,14 +46,14 @@
                                 jcr:primaryType="nt:unstructured"
                                 features="*">
                                 <styles jcr:primaryType="cq:WidgetCollection">
-                                    <resource-text_x0020_blue
+                                    <resourceTextH3
                                         jcr:primaryType="nt:unstructured"
                                         cssName="resource-text"
-                                        text="Resource Text Blue"/>
-                                    <resource-text_x0020_green
+                                        text="Resource Text H3"/>
+                                    <resourceTextP
                                         jcr:primaryType="nt:unstructured"
                                         cssName="rich-text resource-text"
-                                        text="Resource Text Green"/>
+                                        text="Resource Text P"/>
                                 </styles>
                             </styles>
                         </rtePlugins>
