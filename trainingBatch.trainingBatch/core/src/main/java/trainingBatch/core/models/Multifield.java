@@ -1,4 +1,4 @@
-package com.aem.sling.core.models;
+package trainingBatch.core.models;
 
 import javax.annotation.PostConstruct;
 import javax.inject.Inject;
