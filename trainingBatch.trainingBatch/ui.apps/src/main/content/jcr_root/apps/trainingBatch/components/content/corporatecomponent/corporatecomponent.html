@@ -1,14 +1,14 @@
-<div class="cq-placeholder section" data-emptytext="corporate-product"></div> 
+<div class="cq-placeholder section" data-emptytext="Corporate Component"></div> 
 <div data-sly-use.clientLib="${'/libs/granite/sightly/templates/clientlib.html'}">
   	<sly data-sly-call="${clientLib.css @ categories='wknd1.corporate'}"/>
-     <div class="small-business-products">
-          <div id="welcome">
-                <div class="site-width heading-three">
-                    <h2>${properties.text}</h2>
-                
-                            <sly data-sly-test.text="${properties.desc}">
-                            	<p>${text @ context = properties.desc ? 'html' : 'text'}</p>
-                            </sly>
-                </div>
-            </div>
-     </div>
+    <div class="small-business-products">
+    	<div id="welcome">
+          	<div class="site-width heading-three">
+            	<h2>${properties.text}</h2>
+                <sly data-sly-test.text="${properties.desc}">
+                    <p>${text @ context = properties.desc ? 'html' : 'text'}</p>
+                </sly>
+         	</div>
+    	</div>
+	</div>
+</div>            
