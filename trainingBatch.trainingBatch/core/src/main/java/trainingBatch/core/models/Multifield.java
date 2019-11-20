@@ -21,3 +21,4 @@ public class Multifield {
     // No need of a post construct as we don't have anything to modify after the
     // model is constructed
 }
+ 
