@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workspaceFilter version="1.0">
-    <filter root="/conf/trainingBatch" mode="merge"/>
-    <filter root="/content/trainingBatch" mode="merge"/>
-    <filter root="/content/dam/trainingBatch" mode="merge"/>
+    <filter root="/conf/global/settings/workflow/models/2019trainingbatch"/>
+    <filter root="/conf/trainingBatch"/>
+    <filter root="/content/trainingBatch"/>
+    <filter root="/content/dam/trainingBatch"/>
+    <filter root="/var/workflow/models/2019trainingbatch"/>
 </workspaceFilter>

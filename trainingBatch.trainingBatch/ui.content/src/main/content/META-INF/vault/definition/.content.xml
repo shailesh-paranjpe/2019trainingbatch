@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:vlt="http://www.day.com/jcr/vault/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:created="{Date}2019-11-20T13:09:29.558+05:30"
+    jcr:createdBy="admin"
+    jcr:description=""
+    jcr:lastModified="{Date}2019-11-20T13:09:29.558+05:30"
+    jcr:lastModifiedBy="admin"
+    jcr:primaryType="vlt:PackageDefinition"
+    buildCount="8"
+    builtWith="Adobe Experience Manager-6.5.0"
+    fixedBugs=""
+    group="trainingBatch"
+    lastUnwrapped="{Date}2019-11-20T13:09:29.558+05:30"
+    lastUnwrappedBy="admin"
+    lastWrapped="{Date}2019-11-20T13:09:29.558+05:30"
+    lastWrappedBy="admin"
+    name="trainingBatch"
+    providerLink=""
+    providerName=""
+    providerUrl=""
+    testedWith=""
+    version="1.0">
+    <screenshots jcr:primaryType="nt:unstructured"/>
+    <filter jcr:primaryType="nt:unstructured">
+        <f0
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            root="/conf/global/settings/workflow/models/2019trainingbatch"
+            rules="[]"/>
+        <f1
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            root="/conf/trainingBatch"
+            rules="[]"/>
+        <f2
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            root="/content/trainingBatch"
+            rules="[]"/>
+        <f3
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            root="/content/dam/trainingBatch"
+            rules="[]"/>
+        <f4
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            root="/var/workflow/models/2019trainingbatch"
+            rules="[]"/>
+    </filter>
+</jcr:root>
