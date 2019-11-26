@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="Properties"
+    sling:resourceType="cq/gui/components/authoring/dialog">
+    <content
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns">
+        <items jcr:primaryType="nt:unstructured">
+            <column
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="granite/ui/components/coral/foundation/container">
+                <items jcr:primaryType="nt:unstructured">
+                    <heading
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                        fieldDescription="This field adds heading to the component"
+                        fieldLabel="Text"
+                        name="./heading"/>
+                    <content1h
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="cq/gui/components/authoring/dialog/richtext"
+                        emptyText="Enter the Text"
+                        fieldDescription="This field adds header to first content"
+                        fieldLabel="Content 1 Heading"
+                        name="./contentfh"
+                        useFixedInlineToolbar="{Boolean}true"/>
+                    <content1
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="cq/gui/components/authoring/dialog/richtext"
+                        emptyText="Enter the Text"
+                        fieldDescription="This field adds text for first content"
+                        fieldLabel="Content 1"
+                        name="./contentf"
+                        useFixedInlineToolbar="{Boolean}true"/>
+                    <content2h
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="cq/gui/components/authoring/dialog/richtext"
+                        emptyText="Enter the Text"
+                        fieldDescription="This field adds header for second content"
+                        fieldLabel="Content 2 Heading"
+                        name="./contentsh"
+                        useFixedInlineToolbar="{Boolean}true"/>
+                    <content2
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="cq/gui/components/authoring/dialog/richtext"
+                        emptyText="Enter the Text"
+                        fieldDescription="This field adds text to second content"
+                        fieldLabel="Content 2 Heading"
+                        name="./contents"
+                        useFixedInlineToolbar="{Boolean}true"/>
+                    <bgimage
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="cq/gui/components/authoring/dialog/fileupload"
+                        autoStart="{Boolean}false"
+                        fieldDescription="Drop or Browse a image to make it a background"
+                        fieldLabel="Insert Background Image"
+                        fileReferenceParameter="./bgImageReference"
+                        mimeTypes="[image/gif,image/jpeg,image/png,image/webp,image/tiff,image/svg+xml]"
+                        name="./bgImage"
+                        title="Upload Background Image Asset"
+                        uploadUrl="${suffix.path}"/>
+                    <btntxt
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                        emptyText="Enter some text"
+                        fieldDescription="Adds text to button"
+                        fieldLabel="Button Text"
+                        name="./btntxt"/>
+                    <content1icon
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="cq/gui/components/authoring/dialog/fileupload"
+                        autoStart="{Boolean}false"
+                        fieldDescription="Drop or Browse a image to make it icon of content 1"
+                        fieldLabel="Insert icon for content 1"
+                        fileReferenceParameter="./contentficon"
+                        mimeTypes="[image/gif,image/jpeg,image/png,image/webp,image/tiff,image/svg+xml]"
+                        name="./contenticonfst"
+                        title="Upload Background Image Asset"
+                        uploadUrl="${suffix.path}"/>
+                    <content2icon
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="cq/gui/components/authoring/dialog/fileupload"
+                        autoStart="{Boolean}false"
+                        fieldDescription="Drop or Browse a image to make it icon of content 2"
+                        fieldLabel="Insert icon for content 2"
+                        fileReferenceParameter="./contentsicon"
+                        mimeTypes="[image/gif,image/jpeg,image/png,image/webp,image/tiff,image/svg+xml]"
+                        name="./contenticonscnd"
+                        title="Upload Background Image Asset"
+                        uploadUrl="${suffix.path}"/>
+                </items>
+            </column>
+        </items>
+    </content>
+</jcr:root>
