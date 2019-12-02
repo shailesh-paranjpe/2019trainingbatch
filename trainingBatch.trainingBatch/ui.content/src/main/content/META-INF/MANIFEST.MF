@@ -1,7 +1,0 @@
-Manifest-Version: 1.0
-Content-Package-Id: trainingBatch:trainingBatch:1.0
-Content-Package-Roots: /conf/trainingBatch,/content/trainingBatch,/var/w
- orkflow/models/2019trainingbatch,/conf/global/settings/workflow/models/
- 2019trainingbatch,/content/dam/trainingBatch
-Content-Package-Type: content
-
