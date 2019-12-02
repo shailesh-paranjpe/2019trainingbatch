@@ -4,5 +4,8 @@
     <filter root="/conf/trainingBatch"/>
     <filter root="/content/trainingBatch"/>
     <filter root="/content/dam/trainingBatch"/>
-    <filter root="/var/workflow/models/2019trainingbatch"/>
+    <filter root="/var/workflow/models/2019trainingbatch"/><filter
+    	root="/home/groups/community/5Uch2JovfVRu0-K3meOc">
+</filter>
+	<filter root="/home/groups/community/iL78_CwRk5f0Tg9PIcdV"></filter>
 </workspaceFilter>

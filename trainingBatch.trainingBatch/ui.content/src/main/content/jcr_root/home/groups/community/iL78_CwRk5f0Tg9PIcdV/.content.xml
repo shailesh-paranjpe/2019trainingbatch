@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="rep:Group"
+    jcr:uuid="d320813e-a20d-3f63-afd7-1ec58b6fcd47"
+    rep:authorizableId="2019trainingreveiwer_"
+    rep:principalName="2019trainingreveiwer_">
+    <profile
+        jcr:primaryType="nt:unstructured"
+        aboutMe="2019trainingreveiwer_"
+        givenName="2019trainingreveiwer_"/>
+</jcr:root>
