@@ -8,7 +8,7 @@
     title="2019trainingbatch">
     <metaData
         cq:generatingPage="/conf/global/settings/workflow/models/trainingBatch/2019trainingbatch/jcr:content"
-        cq:lastModified="{Long}1575281393940"
+        cq:lastModified="{Long}1575352422482"
         cq:lastModifiedBy="admin"
         jcr:primaryType="nt:unstructured"
         tags=""
@@ -28,7 +28,7 @@
             <metaData
                 jcr:primaryType="nt:unstructured"
                 DO_NOTIFY="true"
-                PARTICIPANT="2019trainingauthor_"
+                PARTICIPANT="2019trainingauthor"
                 timeoutMillis=" "
                 workflowStage="Author"/>
         </node1>
@@ -40,7 +40,7 @@
             <metaData
                 jcr:primaryType="nt:unstructured"
                 DO_NOTIFY="true"
-                PARTICIPANT="2019trainingreveiwer_"
+                PARTICIPANT="2019trainingreveiwer"
                 workflowStage="Review"/>
         </node2>
         <node3
