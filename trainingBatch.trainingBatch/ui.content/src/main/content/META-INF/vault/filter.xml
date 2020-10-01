@@ -2,5 +2,10 @@
 <workspaceFilter version="1.0">
     <filter root="/conf/trainingBatch" mode="merge"/>
     <filter root="/content/trainingBatch" mode="merge"/>
-    <filter root="/content/dam/trainingBatch" mode="merge"/>
+    <filter root="/content/dam/trainingBatch" mode="merge"/><filter
+    	root="/conf/global/settings/workflow/models/trainingBatch" mode="merge">
+</filter>
+	<filter root="/var/workflow/models/trainingBatch" mode="merge"></filter>
+	<filter root="/home/groups/community/9GaC4ismdnWs-7Jq4bfV" mode="merge"></filter>
+	<filter root="/home/groups/community/GN3rBYySvC0Gv1u6b3mH" mode="merge"></filter>
 </workspaceFilter>

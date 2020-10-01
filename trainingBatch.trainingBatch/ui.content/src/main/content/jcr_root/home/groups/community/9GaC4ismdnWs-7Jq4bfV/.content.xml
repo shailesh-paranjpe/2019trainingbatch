@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="rep:Group"
+    jcr:uuid="c74b8cf6-ff8c-3f36-8d57-e0b43dd38d2f"
+    rep:authorizableId="2019trainingauthor"
+    rep:principalName="2019trainingauthor">
+    <profile
+        jcr:primaryType="nt:unstructured"
+        givenName="2019trainingauthor"/>
+</jcr:root>
